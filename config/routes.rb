@@ -1,4 +1,14 @@
 Rails.application.routes.draw do
+  get 'static_pages/home'
+
+  get 'static_pages/cpus'
+
+  get 'static_pages/gpus'
+
+  get 'static_pages/memory'
+
+  get 'static_pages/storage'
+
   root 'application#hello'
 
   # The priority is based upon order of creation: first created -> highest priority.
