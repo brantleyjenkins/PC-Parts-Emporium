@@ -1,2 +1,42 @@
-<h1>StaticPages#cpus</h1>
-<p>Find me in app/views/static_pages/cpus.html.erb</p>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CPUs | PC Parts Emporium</title>
+        <meta charset= "UTF-8">
+        <link rel= "stylesheet" type="text/css" href= "stylesheets/style.css">
+    </head>
+        <body>
+            <h1>CPUs</h1>
+                <h2>
+                    <p1>
+                        <div class="dropdown">
+                        <button class="dropbtn">Home</button>
+                        <div class="dropdown-content">
+                            <a href="home">Return Home</a>
+                        </div>
+                        </div>
+                    </p1>
+                    <p1>
+                        <div class="dropdown">
+                        <button class="dropbtn">Components</button>
+                            <div class="dropdown-content">
+                                <a href="cpus">CPUs</a>
+                                <a href="#">GPUs</a>
+                                <a href="#">Memory</a>
+                                <a href="#">Storage</a>
+                            </div>
+                        </div>
+                    </p1>
+                    <p1>
+                        <div class="dropdown">
+                        <button class="dropbtn">Cart</button>
+                        <div class="dropdown-content">
+                            <a href="#">View</a>
+                        </div>
+                        </div>
+                    </p1>
+                </h2>
+                    <h4>i7 7700k</h4>
+                        <%=image_tag("7700k.jpg", alt: "7700k", size: '200px')%>
+                    
+        </body>

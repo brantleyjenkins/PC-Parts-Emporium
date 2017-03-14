@@ -8,6 +8,8 @@ Rails.application.routes.draw do
   get 'static_pages/memory'
 
   get 'static_pages/storage'
+  
+  get 'static_pages/cart'
 
   root 'application#hello'
 
