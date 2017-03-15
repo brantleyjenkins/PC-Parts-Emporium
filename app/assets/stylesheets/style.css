@@ -1,5 +1,6 @@
     body {
           background-image: url("bkgndimg.jpg");
+          
     }
     
     h1 {
@@ -8,9 +9,11 @@
         border: 22px #99ccff;
         border-style: ridge;
         margin-bottom:20px;
-        text-decoration: underline;
+        text-decoration: none;
         font-style: italic;
         text-align: center;
+        background-color: #99ccff;
+        border-radius: 15px 50px;
         
     }
      
@@ -23,8 +26,10 @@
         margin: auto;
         text-align: center;
         border: 5px #99ccff;
-        border-style: dashed;
-        
+        border-style: solid;
+        background-color: #99ccff;
+        border-radius: 15px 50px;
+        padding: 20px;
     }
      
     .dropdown:hover .dropdown-content {
@@ -41,6 +46,7 @@
         text-align:center;
         height:50px;
         width:160px;
+        border-radius: 12px;
     }
             
     /* Position the dropdown content */
@@ -57,6 +63,7 @@
         min-width: 160px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
+         border-radius: 12px;
     }
             
     /* Links inside the dropdown */
@@ -69,16 +76,22 @@
     }
             
     /* Color of dropdown links on hover */
-    .dropdown-content a:hover {background-color: #f1f1f1}
+    .dropdown-content a:hover {
+        border-radius: 12px;
+        background-color: #f1f1f1
+        
+    }
     
     /* Show the dropdown menu on hover */
     .dropdown:hover .dropdown-content {
         display: block;
+        
     }
 
     /* Change the background color of the dropdown button when the dropdown content is shown */
     .dropdown:hover .dropbtn {
         background-color: #bacff2;
+        border-radius: 12px;
     }
             
     p span {
@@ -90,5 +103,6 @@
     }
     
     p text1 {
-        color:#99ccff;
+        color:#f0f5f5;
     }
+    
