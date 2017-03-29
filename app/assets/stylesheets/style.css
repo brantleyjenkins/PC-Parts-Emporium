@@ -31,6 +31,17 @@
         border-radius: 15px 50px;
         padding: 20px;
     }
+    
+    h4 {
+        
+        text-align: center;
+        text-decoration: underline;
+    }
+    
+    h5 {
+        
+        text-align: center;
+    }
      
     .dropdown:hover .dropdown-content {
         display: block;
