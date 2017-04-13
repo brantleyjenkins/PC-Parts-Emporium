@@ -37,10 +37,5 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     get static_pages_storage_url
     assert_response :success
   end
-  
-  test "should get cart" do
-    get static_pages_cart_url
-    assert_response :success
-  end
 
 end

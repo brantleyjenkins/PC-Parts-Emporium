@@ -13,7 +13,4 @@ class StaticPagesController < ApplicationController
 
   def storage
   end
-  
-  def cart
-  end
 end
