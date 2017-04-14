@@ -14,6 +14,7 @@ Rails.application.routes.draw do
 
   get 'static_pages/storage'
   
+  get 'users/new'
   
   resources :users
 
