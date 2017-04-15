@@ -43,6 +43,18 @@
         
         text-align: center;
     }
+    
+    h6 {
+        width: 15%;
+        
+        text-align: left;
+        border: 5px #99ccff;
+        border-style: solid;
+        background-color: #99ccff;
+        border-radius: 15px 50px;
+        padding: 20px;
+    }
+    
      
     .dropdown:hover .dropdown-content {
         display: block;
@@ -117,4 +129,6 @@
     p text1 {
         color:#f0f5f5;
     }
+    
+ 
     
