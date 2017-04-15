@@ -16,6 +16,12 @@ Rails.application.routes.draw do
 
   get 'static_pages/storage'
   
+  get 'static_pages/psu'
+  
+  get 'static_pages/motherboard'
+  
+  get 'static_pages/reviews'
+  
   get '/signup',  to: 'users#new'
   
   get '/login',   to: 'sessions#new'

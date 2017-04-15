@@ -1,2 +1,36 @@
-<h1>StaticPages#memory</h1>
-<p>Find me in app/views/static_pages/memory.html.erb</p>
+<% provide(:title, "RAM") %>
+        <body>
+            <h1>Memory</h1>
+                <h2>
+                    <p1>
+                        <div class="dropdown">
+                        <button class="dropbtn">Home</button>
+                        <div class="dropdown-content">
+                            <a href="/static_pages/home">Return Home</a>
+                            <a href="/static_pages/reviews">Reviews</a>
+                        </div>
+                        </div>
+                    </p1>
+                    <p1>
+                        <div class="dropdown">
+                        <button class="dropbtn">Components</button>
+                            <div class="dropdown-content">
+                                <a href="/static_pages/cpus">CPUs</a>
+                                <a href="/static_pages/gpus">GPUs</a>
+                                <a href="/static_pages/memory">Memory</a>
+                                <a href="/static_pages/motherboard">Motherboards</a>
+                                <a href="/static_pages/storage">Storage</a>
+                                <a href="/static_pages/psu">Power Supplies</a>
+                            </div>
+                        </div>
+                    </p1>
+                    <p1>
+                        <div class="dropdown">
+                        <button class="dropbtn">User</button>
+                        <div class="dropdown-content">
+                            <a href="/sessions/new">Login</a>
+                            <a href="/users/new">Sign Up</a>
+                        </div>
+                        </div>
+                    </p1>
+                </h2>

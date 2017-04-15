@@ -37,5 +37,20 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     get static_pages_storage_url
     assert_response :success
   end
+  
+  test "should get reviews" do
+    get static_pages_reviews_url
+    assert_response :success
+  end
+  
+  test "should get psu" do
+    get static_pages_psu_url
+    assert_response :success
+  end
+  
+  test "should get motherboard" do
+    get static_pages_motherboard_url
+    assert_response :success
+  end
 
 end

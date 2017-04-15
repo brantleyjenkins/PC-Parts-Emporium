@@ -1,4 +1,4 @@
-<%= @user.name %>, <%= @user.email %>
+<% provide(:title, "Account") %>
 <h1>
   <%= gravatar_for @user %>
   <%= @user.name %>
@@ -9,6 +9,7 @@
                         <button class="dropbtn">Home</button>
                         <div class="dropdown-content">
                             <a href="/static_pages/home">Return Home</a>
+                            <a href="/static_pages/reviews">Reviews</a>
                         </div>
                         </div>
                     </p1>
@@ -19,7 +20,9 @@
                                 <a href="/static_pages/cpus">CPUs</a>
                                 <a href="/static_pages/gpus">GPUs</a>
                                 <a href="/static_pages/memory">Memory</a>
+                                <a href="/static_pages/motherboard">Motherboards</a>
                                 <a href="/static_pages/storage">Storage</a>
+                                <a href="/static_pages/psu">Power Supplies</a>
                             </div>
                         </div>
                     </p1>
@@ -33,6 +36,12 @@
                         </div>
                     </p1>
                 </h2>
+                <h3>
+                    <p>Welcome <%= @user.name %>, ( <%= @user.email %> )</p>
+                    <p>To write a review, please email bcj@email.uscupstate.edu</p>
+                    <p>In order to reduce spam, your review will be evaluated before posting</p>
+                    <p>Thanks for using our site!</p>
+                </h3>
                 
                 
                 

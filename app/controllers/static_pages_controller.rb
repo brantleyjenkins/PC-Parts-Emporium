@@ -13,4 +13,13 @@ class StaticPagesController < ApplicationController
 
   def storage
   end
+  
+  def psu
+  end
+  
+  def motherboard
+  end
+  
+  def reviews
+  end
 end

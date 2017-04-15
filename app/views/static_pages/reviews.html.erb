@@ -1,5 +1,6 @@
-<% provide(:title, "Log In") %>
-<h1>Log In</h1>
+<% provide(:title, "Reviews") %>
+<body>
+    <h1>Reviews</h1>
                 <h2>
                     <p1>
                         <div class="dropdown">
@@ -33,21 +34,6 @@
                         </div>
                     </p1>
                 </h2>
-                <h6>
-                    <div class="row">
-                      <div class="col-md-6 col-md-offset-3">
-                        <%= form_for(:session, url: login_path) do |f| %>
-
-                          <%= f.label :email %>
-                          <%= f.email_field :email, class: 'form-control' %>
-
-                          <%= f.label :password %>
-                          <%= f.password_field :password, class: 'form-control' %>
-
-                          <%= f.submit "Log in", class: "btn btn-primary" %>
-                        <% end %>
-
-                        <p>New user? <%= link_to "Sign up now!", signup_path %></p>
-                      </div>
-                    </div>
-                </h6>
+                <h3><p>Reviews will be posted here upon evaluation</p><p><text1>-----------------------------------------------------</text1></p>
+                <p>1.) 'Awesome site! Really helped me find the best bang for buck parts!' - Anonymous</p>
+                </h3>
